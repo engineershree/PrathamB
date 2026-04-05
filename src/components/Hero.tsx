@@ -17,7 +17,7 @@ const Hero = () => {
 
   const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { duration: 0.5, ease: "easeOut" } }
+    visible: { y: 0, opacity: 1, transition: { duration: 0.5, ease: "easeOut" as any } }
   };
 
   const scannerVariants: Variants = {
@@ -26,7 +26,7 @@ const Hero = () => {
       transition: {
         duration: 3,
         repeat: Infinity,
-        ease: "linear"
+        ease: "linear" as any
       }
     }
   };
