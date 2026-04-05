@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Monitor, Smartphone, Database, ShieldCheck, Bug, Code } from 'lucide-react';
+import { ExternalLink, Github, ShieldCheck, Code } from 'lucide-react';
 
 const ProjectCard = ({ project }: any) => {
   return (

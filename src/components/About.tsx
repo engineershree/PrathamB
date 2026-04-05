@@ -1,6 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { User, MapPin, Mail, Phone, Download, Shield, Bug, Terminal } from 'lucide-react';
+import { MapPin, Mail, Phone, Download, Shield } from 'lucide-react';
 import profileImg from '../assets/profile.png';
 import resumeFile from '../assets/QA03.pdf';
 

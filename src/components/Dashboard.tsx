@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Activity, Shield, Bug, Zap, MessageSquare, Database, Terminal, Settings } from 'lucide-react';
+import { Activity, Shield, Bug, Zap, Terminal, Settings } from 'lucide-react';
 
 const StatCard = ({ icon: Icon, label, value, subtext, color }: any) => {
   return (

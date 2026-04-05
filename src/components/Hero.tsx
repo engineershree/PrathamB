@@ -1,10 +1,10 @@
-import React from 'react';
+import type { Variants } from 'framer-motion';
 import { motion } from 'framer-motion';
-import { ChevronRight, Github, Linkedin, Bug, Shield, Terminal, Activity } from 'lucide-react';
+import { ChevronRight, Github, Linkedin, Bug, Shield } from 'lucide-react';
 import profileImg from '../assets/profile.png';
 
 const Hero = () => {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: { 
       opacity: 1,
@@ -15,12 +15,12 @@ const Hero = () => {
     }
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: { y: 0, opacity: 1, transition: { duration: 0.5, ease: "easeOut" } }
   };
 
-  const scannerVariants = {
+  const scannerVariants: Variants = {
     animate: {
       top: ['-10%', '110%'],
       transition: {

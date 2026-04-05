@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Terminal, Database, Code, Shield, CheckCircle, Bug, Activity, ShieldAlert } from 'lucide-react';
 
